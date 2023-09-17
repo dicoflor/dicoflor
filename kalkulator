@@ -1,0 +1,29 @@
+print('A +')
+print('B -')
+print('C *')
+print('D /')
+print('E **')
+print('F %')
+
+
+co_mam_wykonac = input('co_mam_wykonac ?')
+a = float(input('a = '))
+b = float(input('b = '))
+
+
+if co_mam_wykonac == 'A':
+    print(a+b)
+elif co_mam_wykonac == 'B':
+    print(a-b)
+elif co_mam_wykonac == 'C':
+    print(a*b)
+elif co_mam_wykonac == 'D':
+    print(a/b)
+elif co_mam_wykonac == 'E':
+    print(a**b)
+elif co_mam_wykonac == 'F':
+    print(a%b)
+
+
+else: 
+    print("error!")
