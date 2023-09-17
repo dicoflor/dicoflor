@@ -1,0 +1,195 @@
+import math
+
+def trojkat():
+    a = input("bok: ")
+    h = input("wysokosc: ")
+
+    a = int(a)
+    h = int(h)
+
+    x = a*h
+    ptrojkata = 1/2*x
+    print("pole trojkata to", (ptrojkata))
+
+def trojkatrownoboczny():
+    a = input("bok: ")
+
+    a = int(a)
+
+    x = a**2*(math.sqrt(3))
+    poletrojkatarown = x/4
+    print("pole trojkata rownobocznego to", (poletrojkatarown))
+
+def trapez():
+    pod1 = input("podstawa1: ")
+    pod2 = input("podstawa2: ")
+    wysokosc = input("wysokosc: ")
+
+    pod1 = int(pod1)
+    pod2 = int(pod2)
+    wysokosc = int(wysokosc)
+
+    podst = pod1+pod2
+    podh = podst*wysokosc
+    ptrapezu = podh/2
+    print("pole trapezu to", (ptrapezu))
+
+
+def rownoleglobok():
+    a = input("bok1: ")
+    h = input("wysokosc: ")
+    a = int(a)
+    h = int(h)
+    prownolegloboku = a*h
+    print("pole rownolegloboku to", (prownolegloboku))
+
+def kolo():
+    r = input("promien: ")
+    r = int(r)
+    pkola = math.pi*r**2
+    print("pole koła to", (pkola))
+
+def rombek():
+    e = input("bok1: ")
+    f = input("bok2: ")
+
+    e = int(e)
+    f = int(f)
+
+    boki = e+f 
+    polerombu = boki/2
+    print("pole rombu wynosi", (polerombu))
+
+def romb():
+    a = input("bok: ")
+    h = input("wysokosc: ")
+
+    a = int(a)
+    h = int(h)
+
+    prombu = a*h
+    print("pole rombu to", (prombu))
+
+def prostokat():
+    a = input("bok1: ")
+    b = input("bok2: ")
+    a = int(a)
+    b = int(b)
+    pprostokata = a*b
+    print("pole prostokata to", (pprostokata))
+
+def kwadrat():
+    a = input("bok: ")
+    a = int(a)
+    pkwadratu = a**2
+    print("pole kwadratu to", (pkwadratu))
+
+
+
+print("pole  trójkąta - 1 | pole trojkątaprostokatnego  - 2 | pole trapezu - 3 | pole rownolegloboku  - 4 | pole koła - 5 | pole rombka- 6 | pole rombu - 7 | pole prostokata - 8 | pole kwadratu - 9")
+wybor = input("wybierz numer: ")
+
+if wybor == "1":
+    trojkat()
+
+if wybor == "2":
+    trojkatrownoboczny ()
+
+if wybor == "3":
+    trapez()
+
+if wybor == "4":
+    rownoleglobok()
+
+if wybor == "5":
+    kolo()
+
+if wybor == "6":
+    rombek()
+
+if wybor == "7":
+    romb()
+
+if wybor == "8":
+    prostokat()
+
+if wybor == "9":
+    kwadrat()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
