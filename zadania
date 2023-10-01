@@ -1,0 +1,30 @@
+4
+numbers = [5, 12, 8, 15, 3, 20, 7]
+
+count = 0
+
+for num in numbers:
+    if num > 10:
+        count += 1
+
+print(f"Ilosc liczb wiekszych niż 10 w liscie 'numbers' to: {count}")
+#5
+
+numbers = [5, 12, 8, 15, 3, 20, 7]
+max_number = max(numbers)
+numbers.remove(max_number)
+second_max = max(numbers)
+
+print(f"druga najwieksza liczba w liscie 'numbers' to: {second_max}")
+#6
+
+numbers = [5, 12, 8, 15, 3, 20, 7]
+doubled_numbers = [num * 2 for num in numbers]
+
+print("lista 'doubled_numbers':", doubled_numbers)
+
+#8
+numbers = [5, 12, 8, 15, 3, 20, 7]
+
+for index, num in enumerate(numbers):
+    print(f"Indeks {index}: {num}")
