@@ -1,0 +1,193 @@
+
+# # 1. Wyświetl liczby od 1 do 10.
+
+# # list = [1,2,3,4,5,6,7,8,9,10]
+
+# # print(list)
+
+# # 2. Oblicz sumę liczb od 1 do 100.
+
+# # suma = 0
+
+# # for i in range(1, 101):
+# #     suma += i
+
+# # print("Suma liczb od 1 do 100 wynosi:", suma)
+
+
+
+
+
+
+# # 3. Wyświetl wszystkie parzyste liczby od 1 do 50.
+
+
+# # for liczba in range(2, 51, 2):
+# #     print(liczba)
+
+
+
+
+# # 4. Oblicz iloczyn liczb od 1 do 5.
+
+# # import math
+
+# # liczby = [1, 2, 3, 4, 5]
+# # iloczyn = math.prod(liczby)
+
+# # print("Iloczyn liczb od 1 do 5 wynosi:", iloczyn)
+
+
+
+
+# # 5. Wyświetl odwróconą wersję napisu "Hello World!".
+
+# # napis = "Hello World!"
+# # odwrocony_napis = napis[::-1]
+# # print(odwrocony_napis)
+
+
+
+# # 6. Wyświetl wszystkie litery z podanego słowa.
+
+# # slowo = input("Podaj słowo: ")
+
+# # for litera in slowo:
+# #     print(litera)
+
+
+
+
+# # 7. Oblicz sumę elementów listy liczb.
+
+# # lista_liczb = [1, 2, 3, 4, 5,6]
+# # suma = 0
+
+# # for liczba in lista_liczb:
+# #     suma += liczba
+
+# # print("Suma elementów listy wynosi:", suma)
+
+
+
+
+
+# # 8. Wyświetl wszystkie liczby od 20 do 30, które są podzielne przez 3.
+
+# # for liczba in range(20, 31):
+# #     if liczba % 3 == 0:
+# #         print(liczba)
+
+
+
+
+# # 9. Znajdź największą liczbę w liście.
+
+# # lista_liczb = [34, 37, 12, 112, 51, 9, 2]
+# # najwieksza_liczba = max(lista_liczb)
+
+# # print("Największa liczba w liście to:", najwieksza_liczba)
+
+
+
+# # 10. Wyświetl wszystkie liczby od 1 do 100, które są podzielne jednocześnie przez 3 i 5.
+
+
+# # for liczba in range(1, 101):
+# #     if liczba % 3 == 0 and liczba % 5 == 0:
+# #         print(liczba)
+
+
+
+
+
+# # 11. Oblicz średnią arytmetyczną z listy liczb.
+
+
+# # lista_liczb = [100, 200, 300, 400, 500]
+
+# # suma = sum(lista_liczb)
+
+
+# # srednia = suma / len(lista_liczb)
+
+# # print("Średnia arytmetyczna z listy wynosi:", srednia)
+
+
+
+# # 12. Wyświetl wszystkie litery z podanego zdania, pomijając spacje.
+
+# # zdanie = input("Podaj zdanie: ")
+
+# # for znak in zdanie:
+# #     if znak != ' ':
+# #         print(znak)
+
+
+
+
+# # 13. Oblicz silnię liczby podanej przez użytkownika.
+
+# # def oblicz_silnie(n):
+# #     if n < 0:
+# #         return "Silnia nie istnieje dla liczb ujemnych"
+# #     elif n == 0:
+# #         return 1
+# #     else:
+# #         wynik = 1
+# #         for i in range(1, n + 1):
+# #             wynik *= i
+# #         return wynik
+
+# # liczba = int(input("Podaj liczbę: "))
+# # wynik = oblicz_silnie(liczba)
+# # print(f"Silnia z {liczba} wynosi {wynik}")
+
+
+
+
+
+# # 14. Wyświetl tabliczkę mnożenia (od 1 do 20).
+
+# # for i in range(1, 21):
+# #     for j in range(1, 21):
+# #         wynik = i * j
+# #         print(f"{i} * {j} = {wynik}")
+
+
+
+# # 15. Sprawdź, czy podane słowo jest palindromem.
+
+# # def czy_palindrom(slowo):
+# #     slowo = slowo.lower()  
+# #     odwrocone_slowo = slowo[::-1]
+    
+# #     if slowo == odwrocone_slowo:
+# #         return True
+# #     else:
+# #         return False
+
+# # slowo = input("Podaj słowo: ")
+
+# # if czy_palindrom(slowo):
+# #     print("Podane słowo jest palindromem.")
+# # else:
+# #     print("Podane słowo nie jest palindromem.")
+
+
+
+# # 16. Zamień wszystkie litery w podanym napisie na wielkie litery.
+
+# # napis = input("Podaj napis: ")
+
+# # napis_wielkimi_literami = napis.upper()
+
+# # print("Napis z zamienionymi na wielkie litery:", napis_wielkimi_literami)
+
+
+
+
+
+# # 17. Wyświetl liczby od 1 do 10 w odwrotnej kolejności.
+# for liczba in range(10, 0, -1):
+#     print(liczba)
