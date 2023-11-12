@@ -1,0 +1,41 @@
+# example_1 = lambda x: x**2
+# print(example_1(10))
+
+# example_2 = lambda a,b,c: a + b + c
+
+
+# example_3 = lambda *args: [el for el in args if el > 0]  
+# print(example_3(-5,5,2))
+
+# Napisz funkcję która przyjmuje trzy listy i powie w której z nich znajduje się największa średnia.
+# def zad1(lst1, lst2, les3):
+#     sr = lambda lst: sum(lst)/len(lst)
+#     all_lst = [lst1,lst2,les3]
+#     w = []
+#     for lst in all_lst:
+#         w.append(sr(lst))
+#     return w.index(max(w))
+
+
+# print(zad1([1,2,3,4,5],[-2,-3,-6],[20]))
+
+
+
+# Napisz funkcję która generuje losową listę o wielkości k i zakresie n i m.
+# from random import randint 
+# zad2 = lambda a,b,c: [randint(a,b) for i in range(c)]
+# print(zad2(10,10,20))
+
+
+
+# Napisz funkcję która przyjmuje listę i podniesie wszystkie elementy do kwadratu 
+# zad3 = lambda lst: list(map(lambda x :x**2,lst )) 
+# print(zad3([1,2,3,4,5,6,7]))
+
+
+# Napisz funkcję która przyjmuje listę i podniesie wszystkie elementy do 1/2
+
+# zad4 = lambda lst: list(map(lambda x :x**1/2, lst))
+# print(zad4([3,6,9]))    
+
+      
